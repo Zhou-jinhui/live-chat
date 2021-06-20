@@ -1,6 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Welcome from '../views/Welcome.vue';
 
-const routes = [];
+const routes = [
+  {
+    path: '/',
+    name: 'welcome',
+    component: Welcome,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
