@@ -22,4 +22,13 @@ button {
   border: 0;
   border-radius: 20px;
   padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6bd5b0;
+}
+
+button:active {
+  transform: translateY(1px);
 }
