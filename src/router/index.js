@@ -5,7 +5,7 @@ import Chatroom from '../views/Chatroom.vue';
 const routes = [
   {
     path: '/',
-    name: 'welcome',
+    name: 'Welcome',
     component: Welcome,
   },
   {
